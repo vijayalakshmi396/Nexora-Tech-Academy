@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     const response =
                         await fetch(
-                            "http://localhost:5000/api/enquiries",
+                            "https://nexora-tech-academy-backend.onrender.com/api/enquiries",
                             {
                                 method: "POST",
 
